@@ -35,8 +35,8 @@ st.set_page_config(layout="wide")
 st.title("🌤️ Simulador de Evapotranspiración (ETo) - Penman-Monteith FAO 56")
 
 # Mostrar imágenes explicativas
-st.image("penman_equation_with_description.png", caption="Ecuación de Penman-Monteith y variables", use_column_width=True)
-st.image("penman_monteith_equation.png", caption="Esquema de la evapotranspiración de referencia", use_column_width=True)
+st.image("penman_equation_with_description.png", caption="Ecuación de Penman-Monteith y variables", use_container_width=True)
+st.image("penman_monteith_equation.png", caption="Esquema de la evapotranspiración de referencia", use_container_width=True)
 
 col1, col2 = st.columns([1, 2])
 
